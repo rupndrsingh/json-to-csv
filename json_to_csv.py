@@ -67,7 +67,7 @@ def reduce_item(key, value):
     
     #Base Condition
     else:
-        reduced_item[str(key)] = str(value)
+        reduced_item[str(key)] = str(value.encode('utf-8'))
 
 
 if __name__ == "__main__":
